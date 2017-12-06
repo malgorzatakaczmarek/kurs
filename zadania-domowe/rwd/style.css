@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+header {
+    background: url("man-1.jpg");
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+
+#text {
+    text-align: center;
+
+}
+
+#text {
+    font-variant: small-caps;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+@media (max-width:992px) {
+    img {
+        height: 50%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1170px) {
+    img {
+        width: 70%;
+    }
+    #text {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width:1170px) {
+    img {
+        height: 100%;
+    }
+     #text {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}

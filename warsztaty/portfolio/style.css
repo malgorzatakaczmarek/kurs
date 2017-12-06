@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+div {
+    padding: 1em;
+    font-size: 1.3em;
+    background-color: none;
+}
+
+header {
+    background: url("img/header-background.jpg");
+    height: 600px;
+    padding: 20px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul {
+    text-align: right;
+}
+
+a:link,
+ul a:visited {
+    text-decoration: none;
+    padding: 5px;
+    text-align: right;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    padding-top: 120px;
+    font-family: Roboto;
+}
+
+span {
+    color: green;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Lato;
+    font-weight: 100;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+#about img {
+    width: 300px;
+    height: auto;
+    float: left;
+    padding: 40px;
+    margin-left: 100px;
+}
+
+#knowledge {
+    clear: both
+}
+
+#knowledge {
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+}
+
+#portfolio {
+    clear: both
+}
+
+hr {
+    color: lightgrey;
+}
+
+#portfolio {
+    text-align: center;
+    font-size: 40px;
+}
+
+#contact {
+    clear: both;
+}
+
+#contact {
+    text-align: left;
+    background-color: #2b4a64;
+}
+
+.ikonki div{
+    display:inline-block;
+}
+
+.ikonki div img+p{
+    font-size:16px;
+}
+
+.ikonki{
+    text-align:center;
+}
+
+.copy {
+    background-color: #213b50;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: greenyellow;
+}
+
+.vertical {
+    vertical-align: top;
+    background-color: #2b4a64;
+}
+.contact {
+    vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    background-color: #2b4a64;
+}
+
+.Form {
+    width: 49%;
+    display: inline-block;
+    background-color: #2b4a64;
+    color: white;
+}
+
+input[type="text"],
+textarea {
+    background-color: #2b4a64;
+}
