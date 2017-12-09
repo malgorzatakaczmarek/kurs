@@ -1,0 +1,13 @@
+#elementy_blokowe {
+    background-color: blue;
+}
+
+#elementy_liniowe {
+    background-color: yellow;
+}
+li {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: olive;
+}

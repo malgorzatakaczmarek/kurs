@@ -1,0 +1,29 @@
+#p1::before {
+content: "przed elementem";
+color: red;
+}
+div::after {
+content: "po elemencie";
+color: deeppink;
+}
+p::first-letter {
+color: green;
+}
+#p3::first-line {
+color: yellow;
+}
+a:link {
+    color: darkblue;
+}
+a:visited {
+    color: darkgoldenrod;
+}
+.tabelka p:nth-child(even){
+    background-color: beige
+}
+.tabelka p:nth-child(odd){
+    background-color: pink
+}
+.tabelka p:nth-child(5n+4){
+    background-color: olive
+}
